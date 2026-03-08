@@ -19,13 +19,14 @@ export const Counter = () => {
     }
 
      return (
-        <div className='mt-5'>
-            <h3>Counter: useState</h3>
-            <span>Value: { count }</span>
+        <div className='mt-5' style={{ margin: '20px 0', textAlign: 'center' }}>
+            <h1 style={{ fontSize: '24px' }}>Press the Button</h1>
             <br/>
-            <button style={{ marginRight: '10px' }} onClick={() => numUp(1)} type="button" className="btn btn-primary">Increment</button>
-            <button style={{ marginRight: '10px' }} onClick={() => numDown(1)} type="button" className="btn btn-primary">Decrement</button>
-            <button onClick={reset} type="button" className="btn btn-secondary">Reset</button>
+            <button style={{ marginRight: '10px', border: '2px double', padding: '10px', backgroundColor: 'green', color: 'white' }} onClick={() => numUp(1)} type="button" className="btn btn-primary">Increment</button>
+            <button style={{ marginRight: '10px', border: '2px double', padding: '10px', backgroundColor: 'red', color: 'white' }} onClick={() => numDown(1)} type="button" className="btn btn-primary">Decrement</button>
+            <button style={{ border: '2px double', padding: '10px',backgroundColor: 'gray', color: 'white' }} onClick={reset} type="button" className="btn btn-secondary">Reset</button>
+            <br/>
+            <h2 style={{ margin: '10px 0', fontSize: '24px' }}>Value: { count }</h2>
         </div>
      );
 }

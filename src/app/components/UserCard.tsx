@@ -12,9 +12,10 @@ function Profile({ name, role, color }: info) {
     const Dcolor = color ?? "Lavender";
   return (
     <div style={{ margin: '20px 0', textAlign: 'center' }}>
-        <h1>Name: {name}</h1>
-        <h2>Role: {role = "Network Administrator"}</h2>
-        <h3>Favorite Color: {color = "Red"}</h3>
+        <h1 style={{ fontSize: '24px' }}>User Profile</h1>
+        <h2>Name: {name || Dname}</h2>
+        <h3>Role: {role || Drole}</h3>
+        <h4>Favorite Color: {color || Dcolor}</h4>
     </div>
   );
 }
