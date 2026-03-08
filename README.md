@@ -34,3 +34,14 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+Module 1: Basic text display for welcome page
+Module 2: Small infocard with alternative default text
+Module 3: Button control with UI limits
+Module 4: Root layout editing
+Module 5: Async function displaying random text
+Module 6: Extension of module 5, opening a particular data point
+Module 7: Local server work, form data entry
+Module 8: Background loading tasks displayed with regular page
+Module 9: Login page overriding all other pages until token is received
+Module 10: Shopping cart functionality
